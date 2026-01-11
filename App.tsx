@@ -25,8 +25,8 @@ import {
   CarFront,
   CheckCircle2
 } from 'lucide-react';
-import SmoothFunctionBar from './components/SmoothFunctionBar';
-import SurfacePlot3D from './components/SurfacePlot3D';
+import SmoothFunctionBar from './SmoothFunctionBar';
+import SurfacePlot3D from './SurfacePlot3D';
 import { analyzeImageForFunction, getChefExplanation } from './services/geminiService';
 
 enum Page {
